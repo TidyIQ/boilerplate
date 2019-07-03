@@ -1,0 +1,25 @@
+{
+  "name": "package_name",
+  "version": "0.0.1",
+  "description": "description",
+  "private": true,
+  "author": "Jake Clayton",
+  "license": "ISC",
+  "main": "index.js",
+  "homepage": "https://github.com/TidyIQ/REPO#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TidyIQ/REPO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TidyIQ/REPO/issues"
+  },
+  "scripts": {
+    "dev": "next -p 3066",
+    "build": "next build",
+    "start": "next start -p 3066"
+  },
+  "dependencies": {
+    "@tidyiq/core": "^0.2.3"
+  }
+}
