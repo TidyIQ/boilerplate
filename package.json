@@ -1,0 +1,23 @@
+{
+  "name": "package_name",
+  "version": "0.0.1",
+  "description": "description",
+  "private": true,
+  "author": "Jake Clayton",
+  "license": "ISC",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "@tidyiq"
+  },
+  "scripts": {
+    "lint": "eslint */**/*.{js,ts,tsx} --quiet --fix",
+    "type-check": "tsc --noEmit",
+    "build": "eslint */**/*.{js,ts,tsx} --quiet --fix && tsc -p node_modules/@tidyiq/core-dev/tsconfig_next/tsconfig.json"
+  },
+  "dependencies": {
+    "@tidyiq/core": "^0.2.3"
+  },
+  "devDependencies": {
+    "@tidyiq/core-dev": "^0.1.1"
+  }
+}
