@@ -15,7 +15,7 @@
     "build": "eslint */**/*.{js,ts,tsx} --quiet --fix && tsc -p node_modules/@tidyiq/core-dev/tsconfig_next/tsconfig.json"
   },
   "dependencies": {
-    "@tidyiq/core": "^0.2.3"
+    "@tidyiq/core": "^0.2.11"
   },
   "devDependencies": {
     "@tidyiq/core-dev": "^0.1.1"
